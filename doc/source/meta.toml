@@ -1,0 +1,49 @@
+[meta]
+title = "PoGo"
+subtitle = "Static Site Generator"
+keyword = "pogo,golang,static,site,generator"
+desc = "pogo is a simple static site generator"
+domain = "pogo.io"
+root = "http://pogo.io/"
+lang = "en"
+
+[[nav]]
+link = "/guide.html"
+title = "Guide"
+i18n = "guide"
+hover = "guide"
+
+[[nav]]
+link = "/docs.html"
+title = "Docs"
+i18n = "docs"
+hover = "docs"
+
+[[nav]]
+link = "/showcases.html"
+title = "Showcases"
+i18n = "showcases"
+hover = "showcases"
+
+[[nav]]
+link = "https://github.com/feisuweb/pogo"
+title = "Github"
+i18n = "github"
+icon = "fa fa-github"
+blank = true
+hover = "source"
+
+[[author]]
+name = "pogo"
+email = ""
+url = "http://pogo.io"
+bio = "the robot of pogo, who generates all default contents."
+
+[comment]
+disqus = "pogoio"
+duoshuo = ""
+
+[analytics]
+google = ""
+baidu = ""
+

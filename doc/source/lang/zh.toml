@@ -1,0 +1,29 @@
+
+# navigation
+[nav]
+"guide" = "入门"
+"docs" = "文档"
+"showcases" = "案例"
+"github" = "源码"
+
+#footer
+[footer]
+"language" = "语言"
+"release-notes" = "发布日志"
+"nav" = "PoGo 相关"
+
+#index
+[index]
+slogan = "简单写作，快速编译，智能发布"
+
+#guide
+[guide]
+guide = "入门"
+
+#docs
+[doc]
+doc = "文档"
+command = "命令"
+data = "数据"
+template = "模板"
+deployment = "部署"

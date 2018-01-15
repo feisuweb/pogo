@@ -1,0 +1,13 @@
+[meta]
+title = "PoGo"
+subtitle = "Static Site Generator"
+keyword = "pogo,golang,static,site,generator"
+desc = "pogo is a simple static site generator"
+domain = "pogo.io"
+root = "http://pogo.io/"
+lang = "en"
+
+# wrong value
+[[[nav]]] 
+keyword = "abc"
+

@@ -1,0 +1,24 @@
+{{template "meta.html" .}}
+
+<body>
+	{{template "header.html" .}}
+	<div id="cover" class="{{.PostType}} pogo-{{.PermaKey}}">
+		<div class="wrapper">
+			<h1 id="title">PoGo</h1>
+			<p class="slagon">{{.I18n.Tr "index.slogan"}}</p>
+			{{if eq .I18n.Lang "zh"}}
+			<a class="pure-button pure-button-primary" id="dl-button" href="/zh/download.html">
+				<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;&nbsp; 0.10.5 (Beta)
+			</a>
+			{{else}}
+			<a class="pure-button pure-button-primary" id="dl-button" href="https://github.com/feisuweb/pogo/releases/tag/0.10.5">
+				<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;&nbsp; 0.10.5 (Beta)
+			</a>
+			{{end}}<br/>
+			<span class="slagon-date">2016/09/19</span>
+			<p>
+				<img src="{{.Base}}/img/gopher.svg" alt="gopher" id="gopher-img" />
+			</p>
+		</div>
+	</div>
+	{{template "footer.html" .}}

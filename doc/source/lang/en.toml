@@ -1,0 +1,29 @@
+
+# navigation
+[nav]
+"guide" = "Guide"
+"docs" = "Docs"
+"showcases" = "Showcases"
+"github" = "Github"
+
+#footer
+[footer]
+"language" = "Language"
+"release-notes" = "Release Notes"
+"nav" = "Everything in PoGo"
+
+#index
+[index]
+slogan = "easy Write, fast Build, smart Deploy"
+
+#guide
+[guide]
+guide = "Guide"
+
+#docs
+[doc]
+doc = "Documentation"
+command = "Command"
+data = "Data"
+template = "Template"
+deployment = "Deployment"
